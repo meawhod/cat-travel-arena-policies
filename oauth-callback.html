@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cat Travel Arena Publisher — OAuth Callback</title>
+</head>
+<body>
+<h1>Authorization complete</h1>
+<p>You can close this window and return to the terminal/script that requested access.</p>
+<p id="params" style="font-family: monospace; word-break: break-all;"></p>
+<script>
+document.getElementById('params').textContent = window.location.search || window.location.hash || '';
+</script>
+</body>
+</html>
