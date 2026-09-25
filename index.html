@@ -2,13 +2,67 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Cat Travel Arena Publisher — Policies</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Travel Arena Publisher</title>
+<style>
+body { font-family: -apple-system, Segoe UI, Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+h1 { font-size: 1.6em; margin-bottom: 0.2em; }
+h2 { font-size: 1.2em; margin-top: 1.6em; }
+.sub { color: #666; margin-top: 0; }
+ul { padding-left: 1.3em; }
+footer { margin-top: 3em; font-size: 0.85em; color: #666; }
+</style>
 </head>
 <body>
+
 <h1>Cat Travel Arena Publisher</h1>
+<p class="sub">An internal, single-owner publishing tool for short cat comedy videos.</p>
+
+<h2>Purpose of this application</h2>
+<p><strong>Cat Travel Arena Publisher</strong> is a private automation tool built and operated
+by one person for their own content project, <em>"พี่เสือ &amp; น้องยูสุ" (Suea &amp; Yuzu)</em> — a
+series of short, vertical, comedy travel videos featuring two cats.</p>
+<p>The tool takes a video that its owner has already created and edited, and uploads it to
+<strong>that same owner's own</strong> TikTok, YouTube, Facebook, and Instagram accounts so the
+episode can be published across platforms at a scheduled time. It exists to automate a
+repetitive manual upload task for a single creator — nothing more.</p>
+
+<h2>What this application does</h2>
 <ul>
-<li><a href="terms.html">Terms of Service</a></li>
-<li><a href="privacy.html">Privacy Policy</a></li>
+<li>Uploads video files and their captions that the account owner has already reviewed and approved.</li>
+<li>Connects to TikTok, YouTube (Google), Facebook, and Instagram using OAuth access that the
+    owner personally grants, solely to publish the owner's own content to the owner's own accounts.</li>
+<li>Hosts an approved video file temporarily on a private object-storage bucket so that
+    Instagram's publishing API can fetch it during the upload.</li>
 </ul>
+
+<h2>What this application does not do</h2>
+<ul>
+<li>It is not a public service, SaaS product, or multi-tenant application. There is no sign-up
+    and no third-party user base.</li>
+<li>It does not collect data from viewers, followers, or any other platform user.</li>
+<li>It does not sell, share, or transfer data to third parties, and does not use data for
+    advertising or profiling.</li>
+<li>It does not upload, host, or republish content belonging to anyone other than its owner.</li>
+</ul>
+
+<h2>Who can use it</h2>
+<p>Only the account owner. There is no public login and no account creation; the application is
+run locally by its owner against their own credentials.</p>
+
+<h2>Policies</h2>
+<ul>
+<li><a href="privacy.html">Privacy Policy</a> — what data the tool accesses and how it is handled.</li>
+<li><a href="terms.html">Terms of Service</a> — scope and acceptable use of the tool.</li>
+</ul>
+
+<h2>Contact</h2>
+<p>Questions about this application can be sent to the owner via the project's public social
+accounts: TikTok / Instagram <strong>@phiseua.yuzu</strong>.</p>
+
+<footer>
+Cat Travel Arena Publisher — internal tool. Last updated: 2026-09-25
+</footer>
+
 </body>
 </html>
